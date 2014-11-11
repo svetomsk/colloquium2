@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1"
+    compileSdkVersion 14
+    buildToolsVersion "20"
 
     defaultConfig {
         applicationId "ru.ifmo.md.colloquium2"
-        minSdkVersion 10
-        targetSdkVersion 21
+        minSdkVersion 14
+        targetSdkVersion 14
         versionCode 1
         versionName "1.0"
     }
@@ -19,6 +19,3 @@ android {
     }
 }
 
-dependencies {
-    compile 'com.android.support:appcompat-v7:21.0.0'
-}
